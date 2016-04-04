@@ -1,0 +1,30 @@
+{
+  "name": "express-render-static",
+  "version": "0.1.0",
+  "description": "Express middleware to ender all templates in a given directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Uninspiriert/express-render-static.git"
+  },
+  "keywords": [
+    "express",
+    "render",
+    "static"
+  ],
+  "author": "Thorsten Reichert",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jade": "^1.11.0",
+    "mocha": "^2.4.5",
+    "path": "^0.12.7",
+    "sinon": "^1.17.3"
+  }
+}
